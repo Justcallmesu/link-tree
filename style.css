@@ -70,7 +70,7 @@ body,html{
 /* Main Style*/
 main{
     margin: auto;
-    padding: 10px 0 0 0;
+    
     box-sizing: border-box;
     overflow-y: auto;
     max-height: 45vh;
@@ -81,6 +81,7 @@ main{
     align-items: safe center;
     justify-content: safe center;
     flex-direction: column;
+    padding: 5px 0 ;
 }
 
 .items{
