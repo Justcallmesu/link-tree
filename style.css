@@ -1,5 +1,4 @@
 /* Mobile First Style */
-
 body,html{
     margin:10px 0;
     padding:0;
@@ -8,6 +7,18 @@ body,html{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    overflow-y: hidden;
+}
+/* Tag Style */
+.link{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color:inherit;
+}
+.link:not(:first-child){
+    margin: 10px 0;
 }
 /* Container */
 .container{
@@ -20,7 +31,8 @@ body,html{
 
 /* Heading Style */
 .heading{
-    max-width: 60%;
+    
+    max-width: 80%;
     font-size:0.8rem;
     text-align: center;
     font-weight: 100;
@@ -28,15 +40,38 @@ body,html{
 
 /* Picture Style */
 .profilePicture{
+    width: 70%;
     border: 5px solid black;
     border-radius: 100%;
 }
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.picture > p{
+    height: 0;
+}
 
-.profilePicture::after,.profilePicture::before{
-    content: "";
-    width: 200px;
-    height: 200px;
-    background-color: black;
+/* Main Style*/
+main{
+    overflow-y: auto;
+    max-height: 45vh;
+}
+
+.items{
+    border: 2px solid black;
+    border-radius: 15px 15px 15px 15px;
+    padding:10px;
+}
+
+
+/* Footer */
+footer{
+    position: absolute;
+    bottom: 0;
 }
 
 @font-face {
