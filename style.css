@@ -2,7 +2,6 @@
 body,html{
     margin:10px 0;
     padding:0;
-
     font-family: "Poppins",Arial, Helvetica, sans-serif;
 
     display: flex;
@@ -29,6 +28,8 @@ body,html{
     flex-wrap:wrap ;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
 }
 
 /* Heading Style */
@@ -38,6 +39,7 @@ body,html{
     font-size:0.8rem;
     text-align: center;
     font-weight: 100;
+    
 }
 
 .heading>h2{
@@ -57,6 +59,7 @@ body,html{
     align-items: center;
     flex-direction: column;
     text-align: center;
+    flex-direction: column;
 }
 
 .description{
