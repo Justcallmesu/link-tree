@@ -124,13 +124,16 @@ footer{
     margin: auto 0 0 0;
 }
 
+
 .social-media>a{
+    display: inline-block;
     font-size: 2rem;
     margin: 0 10px;
+    transition: all 0.15s linear;
 }
 
 .social-media a:hover{
-    transform: scale(1) !important;
+    transform: scale(1.5) !important;
 }
 
 .bi-github{
