@@ -22,10 +22,12 @@ html{
 
     position: absolute;
     top:30%;
-
+    z-index: 2;
+    
     padding:20px;
 
     border:2px solid black;
+
 }
 
 .modal .relative-container{
