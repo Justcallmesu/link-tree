@@ -13,6 +13,46 @@ body{
 html{
     height: 100%;
 }
+/* Modal */
+.modal{
+    display: none;
+
+    background-color: white;
+    border-radius: 20px;
+
+    position: absolute;
+    top:30%;
+
+    padding:20px;
+
+    border:2px solid black;
+}
+
+.modal .relative-container{
+    position: relative;
+}
+
+.modal .relative-container button{
+    position: absolute;
+    top:-45px;
+    right: -30px;
+
+
+    border-radius: 50%;
+    font-size: 2rem;
+
+    min-width: 20%;
+    cursor:pointer;
+    transition: 0.15s;
+}
+
+.modal .relative-container button:hover{
+    color:red;
+}
+
+.active{
+    display: inline;
+}
 
 /* Container */
 .container{
